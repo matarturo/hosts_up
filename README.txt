@@ -16,8 +16,8 @@ Ejecutar el script con privilegios <root>
 Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
 
 $ cd /var/log
-$ sudo git clone https://github.com/matarturo/ipyes.git
-$ cd ipyes
+$ sudo git clone https://github.com/matarturo/hosts_up.git
+$ cd hosts_up
 $ sudo cp ipyes.sh /var/log
 $ cd /var/log
 
