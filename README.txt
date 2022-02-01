@@ -5,7 +5,7 @@ Repositorio: https://github.com/matarturo/
 Released under the GNU General Public License WITHOUT ANY WARRANTY.
 See LICENSE.TXT for details.
 
-# Script escrito en lenguaje Bash para detectar hosts activos usando el comando <ping>
+# Script escrito en lenguaje Bash para detectar hosts dispinobles en un segmento de red
 
 # Requisitos
 
