@@ -13,7 +13,7 @@ echo "*********Buscando...**********"
 for ((i = 0; i <= 255; i++))
 do
 {
-       ping 192.168.43.$i -c 2 |grep -q "ttl=" && echo "192.168.43.$i --> en uso" >> ipno.txt || echo "192.168.43.$i di$
+       ping 192.168.2.$i -c 2 |grep -q "ttl=" && echo "192.168.2.$i --> en uso" >> ipno.txt || echo "192.168.2.$i disponible" >> ipyes.txt
 }&
 done
 wait
