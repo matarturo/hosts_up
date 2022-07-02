@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script: ipyes.sh
 # Autor: Arturo Mata <arturo.mata@gmail.com>
-# Version: 1.0.0
+# Version: 1.0.1
 # Repositorio: https://github.com/matarturo/
 # Released under the GNU General Public License WITHOUT ANY WARRANTY.
 # See LICENSE.TXT for details.
@@ -13,7 +13,8 @@ echo "*********Buscando...**********"
 for ((i = 0; i <= 255; i++))
 do
 {
-       ping 192.168.43.$i -c 2 |grep -q "ttl=" && echo "192.168.43.$i --> en uso" >> ipno.txt || echo "192.168.43.$i di$}&
+       ping 192.168.43.$i -c 2 |grep -q "ttl=" && echo "192.168.43.$i --> en uso" >> ipno.txt || echo "192.168.43.$i di$
+}&
 done
 wait
 
